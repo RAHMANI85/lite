@@ -1,3 +1,6 @@
+Scraper Lite is a lightweight web scraping runner designed to execute individual site configurations.
+It allows developers to test and extract data — such as news articles — from websites using customizable CSS selectors for each target site.
+The tool is built to be minimal, fast, and easy to extend, making it ideal for experimenting with site-specific scraping setups
 # Scraper Lite
 
 Minimal runner for individual site configs.
