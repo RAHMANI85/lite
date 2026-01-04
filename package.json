@@ -1,0 +1,19 @@
+{
+  "name": "scraper-lite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "site": "ts-node --project tsconfig.json src/siteRunner.ts",
+    "scrape": "ts-node src/masterScraper.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.57.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
